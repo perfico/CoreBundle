@@ -14,7 +14,7 @@
     "target-dir": "perfico/CoreBundle",
     "autoload": {
         "psr-0": {
-            "perfico\\CoreBundle": ""
+            "Perfico\\CoreBundle": ""
         }
     }
 }
