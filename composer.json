@@ -11,7 +11,6 @@
     "require": {
         "php": ">=5.4"
     },
-    "minimum-stability": "dev",
     "target-dir": "perfico/CoreBundle",
     "autoload": {
         "psr-0": {
