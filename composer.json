@@ -8,8 +8,14 @@
             "email": "asidorov01@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
-        "target-dir": "perfico/CoreBundle"
+        "php": ">=5.4"
+    },
+    "minimum-stability": "dev",
+    "target-dir": "perfico/CoreBundle",
+    "autoload": {
+        "psr-0": {
+            "perfico\\CoreBundle": ""
+        }
     }
 }
