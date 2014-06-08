@@ -1,0 +1,15 @@
+{
+    "name": "perfico/core-bundle",
+    "description": "Small useful utilities for Symfony2",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alex Sidorov",
+            "email": "asidorov01@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "target-dir": "perfico/CoreBundle"
+    }
+}
