@@ -9,9 +9,10 @@
         }
     ],
     "require": {
+        "symfony/symfony": "~2.4",
         "php": ">=5.4"
     },
-    "target-dir": "perfico/CoreBundle",
+    "target-dir": "Perfico/CoreBundle",
     "autoload": {
         "psr-0": {
             "Perfico\\CoreBundle": ""
