@@ -17,7 +17,7 @@ class ReflectionHelper
      * @param $regex
      * @return array
      */
-    static public function getConstants($class, $regex)
+    static public function getConstants($class, $regex, $labelPrefix = '')
     {
         $r = new \ReflectionClass($class);
 
@@ -27,7 +27,7 @@ class ReflectionHelper
 
         $result = array();
         foreach ($filteredKeys as $filteredKey) {
-            $result[$r->getConstant($filteredKey)] = $r->getConstant($filteredKey);
+            $result[$r->getConstant($filteredKey)] = $labelPrefix.$r->getConstant($filteredKey);
         }
 
         return $result;
